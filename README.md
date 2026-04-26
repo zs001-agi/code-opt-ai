@@ -125,3 +125,6 @@ Add a brief description of the project and its purpose in the README file.
 - **Documentation Generation**: Automatically generate detailed documentation from your code comments, making it easier for others to understand your project.
 
 These additional features not only enhance the functionality of `code-opt-ai` but also make it more versatile and user-friendly.
+
+---
+**Add a brief description of the project and its purpose in the README.**
