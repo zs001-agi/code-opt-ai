@@ -1,13 +1,11 @@
 """Code analyzer - AST-based code quality analysis"""
-import ast
-import os
-import re
-import json
+import ast, os, re, json
 from typing import Dict, Any, List, Set, Optional, Tuple, Callable
 from dataclasses import dataclass, field
 from collections import defaultdict, deque
 from pathlib import Path
 
+@dataclass
 class FunctionInfo:
     """函数信息"""
     name: str
@@ -40,7 +38,7 @@ class FunctionInfo:
             "docstring": self.docstring[:100] if self.docstring else ""
         }
 
-
+@dataclass
 class ClassInfo:
     """类信息"""
     name: str
@@ -63,7 +61,6 @@ class ClassInfo:
             "methods": [m.name for m in self.methods],
             "attributes": self.attributes
         }
-
 
 class ComplexityVisitor(ast.NodeVisitor):
     """圈复杂度计算"""
@@ -113,7 +110,6 @@ class ComplexityVisitor(ast.NodeVisitor):
             if isinstance(child, (ast.If, ast.For, ast.While)):
                 count += 1 + self._count_ifs(child)
         return count
-
 
 class CodeAnalyzer:
     """
@@ -293,4 +289,3 @@ class CodeAnalyzer:
             "functions": [f.to_dict() for f in self.functions],
             "classes": [c.to_dict() for c in self.classes],
         }
-
