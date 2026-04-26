@@ -65,6 +65,7 @@ def print_report(report: dict, verbose: bool = False):
                   f"complexity: {ccolor}{complexity}{RESET}, "
                   f"{'doc' if func.get('has_docstring') else 'no doc'})")
 
+    """Analyzes and processes command input data."""
 
 def cmd_analyze(args):
     optimizer = CodeOptimizer()
