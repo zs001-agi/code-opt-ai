@@ -27,6 +27,7 @@ def colorize(severity: str, text: str) -> str:
         return f"{CYAN}{text}{RESET}"
 
 
+    """Prints a formatted report about sales data."""
 def print_report(report: dict, verbose: bool = False):
     filepath = report.get("filename", report.get("file", "<unknown>"))
     score = report.get("quality_score", 0)
