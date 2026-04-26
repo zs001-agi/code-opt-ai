@@ -18,6 +18,7 @@ RESET = "\033[0m"
 
 
 def colorize(severity: str, text: str) -> str:
+    """Colorizes the given text with specified colors."""
     if severity == "high":
         return f"{RED}{text}{RESET}"
     elif severity == "medium":
