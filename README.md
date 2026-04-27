@@ -222,3 +222,20 @@ markdown
 # Improve README
 
 The current README is too long and complex for beginners. Consider simplifying the instructions, adding screenshots, and breaking down complex concepts into more digestible sections.
+
+---
+# 🔥 Tips for Using Code-OptiAI 🚀
+
+## 👉 Start with the Basics
+
+Before diving into advanced features, make sure you have a good grasp of Python. Familiarize yourself with basic concepts like functions, loops, and conditionals.
+
+## ✨ Analyze Your Code
+
+Use Code-OptiAI to analyze your existing Python code. This will provide you with actionable insights on complexity, documentation, type hints, and more.
+
+## 📚 Actionable Suggestions
+
+Code-OptiAI offers a variety of actionables to help you improve your code quality. These suggestions are designed to help you identify areas for improvement in your code's structure, readability, and maintainability.
+
+By following these tips, you
