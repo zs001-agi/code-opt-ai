@@ -142,3 +142,21 @@ Analyze and improve your Python code quality with AST-based static analysis. Get
 
 ---
 Add instructions on how to run the application and provide clear examples of its usage.
+
+---
+# ✨ Improvements to Attract More Stars
+
+## 🚀 Get Started
+
+To get started with Code Opt AI, follow these simple steps:
+
+1. **Install the library**: Run `pip install code-opt-ai` in your Python environment.
+2. **Run analysis**: Execute `code-opt-ai analyze` to check your code for potential issues.
+3. **Review suggestions**: The tool will provide actionable insights on complexity, documentation, type hints, and more.
+
+## 🛠️ AI-powered Features
+
+- **AST-based analysis** — No API needed, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+-
