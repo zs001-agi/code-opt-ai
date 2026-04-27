@@ -175,3 +175,13 @@ To get started with Code Opt AI, follow these simple steps:
 
 ---
 Add a brief introduction to the project and its purpose in README.
+
+---
+# 🚀 Get Your Python Code Optimized with AST-Based Analysis
+
+> AI-powered Python code optimizer using static analysis.
+
+Analyze and improve your Python code quality with AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more. Our tool provides a score (0-100) based on various metrics such as cyclomatic complexity, maintainability index, and code coverage to help you prioritize improvements.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads
