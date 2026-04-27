@@ -160,3 +160,7 @@ To get started with Code Opt AI, follow these simple steps:
 - **Cyclomatic complexity** — Detect overly complex functions
 - **Quality scoring** — Multi-dimensional score (0-100)
 -
+
+---
+- Provide clear instructions on how to install dependencies and run the project.
+- Include screenshots or links to tutorials for beginners.
