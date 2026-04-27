@@ -188,3 +188,17 @@ Analyze and improve your Python code quality with AST-based static analysis. Get
 
 ---
 Make the README more detailed and accessible to newcomers.
+
+---
+# 🚀 Improve Your Python Code with code-opt-ai
+
+## ✨ Features
+
+- **AST-based analysis** — No AI API needed, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Provide detailed feedback on code improvements
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub stars](https://img.shields
