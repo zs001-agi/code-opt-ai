@@ -164,3 +164,11 @@ To get started with Code Opt AI, follow these simple steps:
 ---
 - Provide clear instructions on how to install dependencies and run the project.
 - Include screenshots or links to tutorials for beginners.
+
+---
+# 🚀 Features
+
+- **AST-based analysis** — No AI API needed, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Generate detailed recommendations for improvements.
