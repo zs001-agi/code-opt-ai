@@ -287,3 +287,15 @@ markdown
 # Code Optimization AI
 
 This project aims to optimize code efficiency by leveraging machine learning algorithms for static and dynamic analysis.
+
+---
+# 🔍 Analyze Your Python Code with AST-Based Static Analysis
+
+Get actionable insights on code quality, complexity, and more using AST-based static analysis. With `code-opt-ai`, you can:
+
+- **Detect Cyclomatic Complexity**: Find overly complex functions and extract subfunctions for refactoring.
+- **Quality Scoring**: Assess the overall quality of your code based on metrics like cyclomatic complexity, docstrings, and type hints.
+- **Actionable Suggestions**: Generate detailed recommendations to improve your code, such as extracting methods or adding docstrings.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https
