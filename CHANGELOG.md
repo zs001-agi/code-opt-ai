@@ -1,5 +1,5 @@
 
 ## 2026-04-28
-- Added new examples demonstrating advanced use cases.
-- Fixed several bugs impacting performance and stability.
-- Improved documentation for better user understanding and ease of use.
+- Added new examples demonstrating advanced usage of the library.
+- Fixed several bugs related to edge case handling in data processing.
+- Updated documentation with clearer instructions and expanded tutorials.
