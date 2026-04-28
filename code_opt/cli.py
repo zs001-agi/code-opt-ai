@@ -34,6 +34,7 @@ def get_filepath(report):
 
     """This function takes a score as input and formats it according to specific rules."""
 def format_score(score):
+    """Formats a score into a readable string with units and decimal places."""
     score_color = GREEN if score >= 80 else (YELLOW if score >= 50 else RED)
     return f"{score_color}{score:.1f}/100{RESET}"
     """Print statistics about the input data."""
