@@ -28,44 +28,33 @@ def colorize(severity: str, text: str) -> str:
 
 
     """Prints a formatted report about sales data."""
+def get_filepath(report):
+    return report.get("filename", report.get("file", "<unknown>"))
+
+def format_score(score):
+    score_color = GREEN if score >= 80 else (YELLOW if score >= 50 else RED)
+    return f"{score_color}{score:.1f}/100{RESET}"
+
+def print_stats(report):
+    functions_count = len(report.get('functions', []))
+    classes_count = len(report.get('classes', []))
+    total_lines = report.get('total_lines', 0)
+    print(f"  Functions: {functions_count} | Classes: {classes_count} | Lines: {total_lines}")
+
 def print_report(report: dict, verbose: bool = False):
-    filepath = report.get("filename", report.get("file", "<unknown>"))
-    score = report.get("quality_score", 0)
+    filepath = get_filepath(report)
+    score = format_score(report.get("quality_score", 0))
 
     # Score display
-    score_color = GREEN if score >= 80 else (YELLOW if score >= 50 else RED)
     print(f"\n{BOLD}{filepath}{RESET}")
-    print(f"  Quality Score: {score_color}{score:.1f}/100{RESET}")
+    print(score)
 
-    # Stats
-    print(f"  Functions: {len(report.get('functions', []))} | "
-          f"Classes: {len(report.get('classes', []))} | "
-          f"Lines: {report.get('total_lines', 0)}")
+    if verbose:
+        print_stats(report)
 
-    # Issues
     issues = report.get("issues", [])
-    if issues:
-        print(f"\n  {BOLD}Issues Found: {len(issues)}{RESET}")
-        for issue in sorted(issues, key=lambda x: {"high": 0, "medium": 1, "low": 2}.get(x.get("severity", "low"), 3)):
-            severity = issue.get("severity", "low")
-            location = issue.get("location", "?")
-            message = issue.get("message", "")
-            symbol = {"high": "✗", "medium": "!", "low": "•"}.get(severity, "•")
-            print(f"    {colorize(severity, symbol)} [{severity.upper()}] {message}")
-    else:
-        print(f"  {GREEN}✓ No issues found!{RESET}")
-
-    if verbose and report.get("functions"):
-        print(f"\n  {BOLD}Functions:{RESET}")
-        for func in report["functions"]:
-            complexity = func.get("complexity", 0)
-            ccolor = GREEN if complexity < 5 else (YELLOW if complexity < 10 else RED)
-            print(f"    {func.get('name', '?')} "
-                  f"(line {func.get('lineno', 0)}, "
-                  f"complexity: {ccolor}{complexity}{RESET}, "
-                  f"{'doc' if func.get('has_docstring') else 'no doc'})")
-
-    """Analyzes and processes command input data."""
+    for issue in issues:
+        print(f"  - {issue}")
 
 def cmd_analyze(args):
     optimizer = CodeOptimizer()
