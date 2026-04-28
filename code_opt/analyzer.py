@@ -179,49 +179,37 @@ class CodeAnalyzer:
 
         return self._build_result()
 
-    def _visit_function(self, node, is_async: bool):
-        visitor = ComplexityVisitor()
-        visitor._in_function = True
-        visitor._in_async_function = is_async
-        visitor.visit(node)
-        complexity = visitor.complexity
+def _visit_function(self, node, is_async: bool):
+    visitor = ComplexityVisitor()
+    self._visit_node(visitor, node, is_async)
+    complexity = visitor.complexity
 
-        # 计算嵌套深度
-        depth = 0
-        for child in ast.walk(node):
-            if isinstance(child, (ast.FunctionDef, ast.AsyncFunctionDef)):
-                depth = max(depth, self._get_nesting_depth(child))
+    depth = self._calculate_nesting_depth(node)
+    n_returns = self._count_returns(node)
+    n_locals = self._count_local_variables(node)
 
-        # 统计return
-        n_returns = sum(1 for _ in ast.walk(node) if isinstance(_, ast.Return))
+    return complexity, depth, n_returns, n_locals
 
-        # 统计局部变量
-        n_locals = len([n for n in ast.walk(node) if isinstance(n, ast.Name)])
+def _visit_node(self, visitor, node, is_async):
+    visitor._in_function = True
+    visitor._in_async_function = is_async
+    visitor.visit(node)
 
-        # docstring
-        docstring = ast.get_docstring(node) or ""
+def _calculate_nesting_depth(self, node):
+    depth = 0
+    for child in ast.walk(node):
+        if isinstance(child, (ast.FunctionDef, ast.AsyncFunctionDef)):
+            depth = max(depth, self._get_nesting_depth(child))
+    return depth
 
-        # 类型提示
-        args_with_types = sum(
-            1 for arg in node.args.args
-            if arg.annotation is not None
-        )
+def _count_returns(self, node):
+    return sum(1 for _ in ast.walk(node) if isinstance(_, ast.Return))
 
-        self.functions.append(FunctionInfo(
-            name=node.name,
-            lineno=node.lineno,
-            end_lineno=node.end_lineno or node.lineno,
-            n_args=len(node.args.args),
-            n_returns=n_returns,
-            n_locals=n_locals,
-            complexity=complexity,
-            has_docstring=bool(docstring),
-            has_type_hints=args_with_types > 0,
-            is_async=is_async,
-            docstring=docstring,
-            args_with_types=args_with_types,
-            nested_depth=depth
-        ))
+def _count_local_variables(self, node):
+    return len([n for n in ast.walk(node) if isinstance(n, ast.Name)])
+
+
+# Update the method to use these new methods
 
     def _visit_class(self, node, depth=0):
         methods = []
