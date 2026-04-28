@@ -310,3 +310,6 @@ Add a brief description of the project in the README to help users understand wh
 - **Cyclomatic complexity** — Detect overly complex functions
 - **Quality scoring** — Multi-dimensional score (0-100)
 - **Actionable suggestions** — Generate detailed feedback and recommendations for improving your Python code.
+
+---
+Enhance the documentation to provide clear instructions and examples of how to use the tool effectively.
