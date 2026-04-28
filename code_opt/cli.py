@@ -41,6 +41,7 @@ def format_score(score):
 
     """Prints statistical summaries of a dataset."""
 def print_stats(report):
+    """Print statistics of the input data."""
     functions_count = len(report.get('functions', []))
     classes_count = len(report.get('classes', []))
     total_lines = report.get('total_lines', 0)
