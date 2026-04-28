@@ -77,41 +77,38 @@ class CodeOptimizer:
             "optimized_length": len(optimized_source),
         }
 
-    def _calculate_quality_score(self, report: dict) -> float:
-        """Calculate a quality score (0-100) from analysis report."""
-        score = 100.0
-        
-        # Penalty for high complexity
-        for func in report.get("functions", []):
-            if func.get("complexity", 0) > 10:
-                score -= 5
-            if func.get("complexity", 0) > 20:
-                score -= 5
+def _calculate_complexity_penalty(self, functions: list) -> float:
+    """Calculate complexity penalty based on function complexity."""
+    penalty = 0.0
+    for func in functions:
+        complexity = func.get("complexity", 0)
+        if complexity > 10:
+            penalty += 5
+        if complexity > 20:
+            penalty += 5
+    return penalty
 
-        # Penalty for missing docstrings
-        for func in report.get("functions", []):
-            if not func.get("has_docstring", False):
-                score -= 3
+def _calculate_docstring_penalty(self, functions: list) -> float:
+    """Calculate docstring penalty based on function documentation."""
+    penalty = 0.0
+    for func in functions:
+        if not func.get("has_docstring", False):
+            penalty += 3
+    return penalty
 
-        # Penalty for missing type hints
-        for func in report.get("functions", []):
-            if not func.get("has_type_hints", False) and func.get("n_args", 0) > 0:
-                score -= 2
+def _calculate_quality_score(self, report: dict) -> float:
+    """Calculate a quality score (0-100) from analysis report."""
+    score = 100.0
+    
+    functions = report.get("functions", [])
+    
+    complexity_penalty = self._calculate_complexity_penalty(functions)
+    docstring_penalty = self._calculate_docstring_penalty(functions)
+    
+    score -= complexity_penalty
+    score -= docstring_penalty
 
-        # Bonus for good docstrings and type hints
-        for cls_info in report.get("classes", []):
-            if cls_info.get("has_docstring", False):
-                score += 2
-
-        # Penalty for long functions
-        for func in report.get("functions", []):
-            length = func.get("end_lineno", 0) - func.get("lineno", 0)
-            if length > 50:
-                score -= 5
-            if length > 100:
-                score -= 5
-
-        return max(0, min(100, score))
+    return score
 
     def _find_issues(self, report: dict) -> list:
         """Find code quality issues."""
