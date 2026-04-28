@@ -32,6 +32,7 @@ def get_filepath(report):
     """This function returns the file path of the current script based on its name."""
     return report.get("filename", report.get("file", "<unknown>"))
 
+    """This function takes a score as input and formats it according to specific rules."""
 def format_score(score):
     score_color = GREEN if score >= 80 else (YELLOW if score >= 50 else RED)
     return f"{score_color}{score:.1f}/100{RESET}"
