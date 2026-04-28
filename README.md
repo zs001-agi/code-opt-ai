@@ -302,3 +302,11 @@ Get actionable insights on code quality, complexity, and more using AST-based st
 
 ---
 Add a brief description of the project in the README to help users understand what it does and how to use it.
+
+---
+# ✨ Features
+
+- **AST-based analysis** — No AI API needed, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Generate detailed feedback and recommendations for improving your Python code.
