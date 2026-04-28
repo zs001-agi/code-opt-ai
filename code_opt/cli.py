@@ -39,6 +39,7 @@ def format_score(score):
     return f"{score_color}{score:.1f}/100{RESET}"
     """Print statistics about the input data."""
 
+    """Prints statistical summaries of a dataset."""
 def print_stats(report):
     functions_count = len(report.get('functions', []))
     classes_count = len(report.get('classes', []))
