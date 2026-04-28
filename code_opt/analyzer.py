@@ -205,75 +205,37 @@ def _calculate_nesting_depth(self, node):
 def _count_returns(self, node):
     return sum(1 for _ in ast.walk(node) if isinstance(_, ast.Return))
 
-def _count_local_variables(self, node):
+import ast
+
+class FunctionInfo:
+    def __init__(self, name, lineno, end_lineno):
+        self.name = name
+        self.lineno = lineno
+        self.end_lineno = end_lineno
+
+def _count_local_variables(node):
     return len([n for n in ast.walk(node) if isinstance(n, ast.Name)])
 
+def _visit_function(self, node, is_method=True):
+    info = FunctionInfo(
+        name=node.name,
+        lineno=node.lineno,
+        end_lineno=node.end_lineno
+    )
+    docstring = ast.get_docstring(node) or ""
+    # Additional logic to process the function info and docstring
 
-# Update the method to use these new methods
-
+class YourClass:
     def _visit_class(self, node, depth=0):
         methods = []
         attributes = []
 
         for item in node.body:
             if isinstance(item, ast.FunctionDef):
-                self._visit_function(item, False)
+                self._visit_function(item)
                 m_doc = ast.get_docstring(item) or ""
                 methods.append(FunctionInfo(
                     name=item.name,
                     lineno=item.lineno,
-                    end_lineno=item.end_lineno or item.lineno,
-                    n_args=len(item.args.args),
-                    n_returns=0,
-                    n_locals=0,
-                    complexity=1,
-                    has_docstring=bool(m_doc),
-                    has_type_hints=False,
-                    is_async=False,
-                    docstring=m_doc,
-                    args_with_types=0,
-                    nested_depth=depth+1
+                    end_lineno=item.end_lineno
                 ))
-            elif isinstance(item, ast.AsyncFunctionDef):
-                self._visit_function(item, True)
-            elif isinstance(item, ast.Assign):
-                for target in item.targets:
-                    if isinstance(target, ast.Name):
-                        attributes.append(target.id)
-
-        self.classes.append(ClassInfo(
-            name=node.name,
-            lineno=node.lineno,
-            end_lineno=node.end_lineno or node.lineno,
-            n_methods=len(methods),
-            n_base_classes=len(node.bases),
-            has_docstring=bool(ast.get_docstring(node)),
-            docstring=ast.get_docstring(node) or "",
-            methods=methods,
-            attributes=attributes
-        ))
-
-    def _get_nesting_depth(self, node) -> int:
-        depth = 0
-        for child in ast.walk(node):
-            if isinstance(child, (ast.For, ast.While, ast.If)):
-                depth += 1
-        return depth
-
-    def _build_result(self) -> Dict[str, Any]:
-        return {
-            "filepath": self.file_path,
-            "parse_error": self.parse_error,
-            "total_lines": self.total_lines,
-            "code_lines": self.top_level_code_lines,
-            "blank_lines": self.blank_lines,
-            "comments": self.comments,
-            "n_functions": len(self.functions),
-            "n_classes": len(self.classes),
-            "n_imports": len(self.imports),
-            "n_import_froms": len(self.import_froms),
-            "imports": self.imports[:20],
-            "import_froms": [(m, n) for m, n in self.import_froms[:20]],
-            "functions": [f.to_dict() for f in self.functions],
-            "classes": [c.to_dict() for c in self.classes],
-        }
