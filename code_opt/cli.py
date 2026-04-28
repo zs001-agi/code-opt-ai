@@ -47,6 +47,7 @@ def print_stats(report):
     total_lines = report.get('total_lines', 0)
     print(f"  Functions: {functions_count} | Classes: {classes_count} | Lines: {total_lines}")
 
+    """Prints a formatted report with title and content."""
 def print_report(report: dict, verbose: bool = False):
     filepath = get_filepath(report)
     score = format_score(report.get("quality_score", 0))
