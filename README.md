@@ -299,3 +299,6 @@ Get actionable insights on code quality, complexity, and more using AST-based st
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https
+
+---
+Add a brief description of the project in the README to help users understand what it does and how to use it.
