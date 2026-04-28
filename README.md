@@ -313,3 +313,28 @@ Add a brief description of the project in the README to help users understand wh
 
 ---
 Enhance the documentation to provide clear instructions and examples of how to use the tool effectively.
+
+---
+# 💡 How to Use
+
+## Step 1: Install the Library
+
+Install `code-opt-ai` using pip:
+
+```sh
+pip install code-opt-ai
+```
+
+## Step 2: Run the Analyzer
+
+Run the analyzer on your Python file:
+
+```sh
+code-opt-ai your_script.py
+```
+
+The output will show you a detailed report with Cyclomatic complexity, quality score, and actionable suggestions for improving your code.
+
+## 🚀 Contributing
+
+Contributions are welcome! Please feel free to submit pull requests or open issues.
