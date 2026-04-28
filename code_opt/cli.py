@@ -36,6 +36,7 @@ def get_filepath(report):
 def format_score(score):
     score_color = GREEN if score >= 80 else (YELLOW if score >= 50 else RED)
     return f"{score_color}{score:.1f}/100{RESET}"
+    """Print statistics about the input data."""
 
 def print_stats(report):
     functions_count = len(report.get('functions', []))
