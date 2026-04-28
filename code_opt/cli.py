@@ -29,6 +29,7 @@ def colorize(severity: str, text: str) -> str:
 
     """Prints a formatted report about sales data."""
 def get_filepath(report):
+    """This function returns the file path of the current script based on its name."""
     return report.get("filename", report.get("file", "<unknown>"))
 
 def format_score(score):
