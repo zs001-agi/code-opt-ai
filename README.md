@@ -239,3 +239,6 @@ Use Code-OptiAI to analyze your existing Python code. This will provide you with
 Code-OptiAI offers a variety of actionables to help you improve your code quality. These suggestions are designed to help you identify areas for improvement in your code's structure, readability, and maintainability.
 
 By following these tips, you
+
+---
+Add a brief description and include installation instructions.
