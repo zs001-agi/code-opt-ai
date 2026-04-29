@@ -139,7 +139,7 @@ class CodeAnalyzer:
         except Exception as e:
             return {"error": str(e), "functions": [], "classes": []}
 
-    def analyze_source(self, source: str) -> Dict[str, Any]:
+def analyze_source(self, source: str) -> Dict[str, Any]:
         """分析源代码"""
         self.functions = []
         self.classes = []
@@ -148,36 +148,22 @@ class CodeAnalyzer:
 
         lines = source.split("\n")
         self.total_lines = len(lines)
-        self.blank_lines = sum(1 for l in lines if not l.strip())
-        self.comments = sum(1 for l in lines if l.strip().startswith("#"))
+        self.blank_lines = count_blank_lines(lines)
+        self.comments = count_comments(lines)
         self.top_level_code_lines = self.total_lines - self.blank_lines - self.comments
 
         try:
             tree = ast.parse(source)
         except SyntaxError as e:
-            self.parse_error = str(e)
-            return self._build_result()
+            self.pars
 
-        # 收集import
-        for node in ast.walk(tree):
-            if isinstance(node, ast.Import):
-                for alias in node.names:
-                    self.imports.append(alias.name)
-            elif isinstance(node, ast.ImportFrom):
-                module = node.module or ""
-                for alias in node.names:
-                    self.import_froms.append((module, alias.name))
+def count_blank_lines(lines: List[str]) -> int:
+    """计算空白行数"""
+    return sum(1 for l in lines if not l.strip())
 
-        # 分析顶层
-        for node in tree.body:
-            if isinstance(node, ast.FunctionDef):
-                self._visit_function(node, False)
-            elif isinstance(node, ast.AsyncFunctionDef):
-                self._visit_function(node, True)
-            elif isinstance(node, ast.ClassDef):
-                self._visit_class(node)
-
-        return self._build_result()
+def count_comments(lines: List[str]) -> int:
+    """计算注释行数"""
+    return sum(1 for l in lines if l.strip().startswith("#"))
 
 def _visit_function(self, node, is_async: bool):
     visitor = ComplexityVisitor()
