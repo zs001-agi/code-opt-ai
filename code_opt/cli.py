@@ -105,6 +105,7 @@ def cmd_check(command: str) -> bool:
 ```
 
 **Explanation**: The `cmd_check` function takes a single"""
+    """Checks if a command exists in the system's PATH and returns its full path if it does."""
 def cmd_check(args):
     for directory in args.directories:
         print(f"\n{BOLD}Checking: {directory}{RESET}")
