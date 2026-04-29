@@ -2,21 +2,45 @@
 import ast
 from typing import List
 
-def optimize_python_code(code: str) -> str:
-    class Optimizer(ast.NodeVisitor):
-        def visit_FunctionDef(self, node: ast.FunctionDef) -> None:
-            self.generic_visit(node)
-            # Implement optimization logic here for each function
-            pass
-
-    def evolve_tree(tree: ast.AST) -> ast.AST:
-        # Implement evolutionary algorithm logic to mutate and crossover trees
+class MutationOperator:
+    def mutate(self, node):
         pass
 
-    tree = ast.parse(code)
-    optimizer = Optimizer()
-    optimized_tree = optimizer.visit(tree)
+class AdditionMutation(MutationOperator):
+    def mutate(self, node):
+        if isinstance(node, ast.BinOp):
+            if isinstance(node.op, ast.Add):
+                return ast.BinOp(left=node.left, op=ast.Sub, right=node.right)
+            elif isinstance(node.op, ast.Sub):
+                return ast.BinOp(left=node.left, op=ast.Add, right=node.right)
+        return node
 
-    # Apply the evolved tree back to the original code
-    new_code = ast.unparse(optimized_tree)
+class DeletionMutation(MutationOperator):
+    def mutate(self, node):
+        if isinstance(node, ast.Call):
+            return None
+        return node
+
+def evolve(code: str) -> List[str]:
+    tree = ast.parse(code)
+    
+    operators = [AdditionMutation(), DeletionMutation()]
+    
+    new_code = []
+    for node in ast.walk(tree):
+        for operator in operators:
+            mutated_node = operator.mutate(node)
+            if mutated_node is not None:
+                new_code.append(ast.unparse(mutated_node))
+    
     return new_code
+
+# Example usage
+code = """
+def add(a, b):
+    return a + b
+"""
+new_codes = evolve(code)
+
+for code in new_codes:
+    print(code)
