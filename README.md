@@ -380,3 +380,6 @@ Analyze and improve your Python code quality with AST-based static analysis. Get
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com/zs0
+
+---
+Add a table of contents to the README to make it easier for users to navigate and find information.
