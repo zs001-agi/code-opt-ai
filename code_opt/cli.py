@@ -128,8 +128,10 @@ def cmd_check(args):
 
     """This is the main function of the application."""
 
-def main():
-    """This is the main function in the program."""
+import argparse
+
+def setup_parser():
+    """Set up and return an argument parser."""
     parser = argparse.ArgumentParser(
         description="code-opt-ai: AI-powered Python code optimizer",
         formatter_class=argparse.RawDescriptionHelpFormatter,
@@ -140,38 +142,48 @@ Examples:
   code-opt analyze myfile.py --json       # JSON output
   code-opt optimize myfile.py             # Generate optimized version
   code-opt optimize myfile.py -o opt.py   # Save to specific file
-  code-opt check ./src                    # Batch check a directory
-        """
-    )
-    parser.add_argument("--json", action="store_true", help="Output as JSON")
-    parser.add_argument("--verbose", "-v", action="store_true", help="Verbose output")
+  code-opt check .
+""")
+    return parser
 
-    subparsers = parser.add_subparsers(dest="command", help="Available commands")
+def handle_analyze(args):
+    """Handle the 'analyze' command."""
+    print("Analyzing code quality...")
 
-    # analyze
-    analyze_parser = subparsers.add_parser("analyze", help="Analyze code quality")
-    analyze_parser.add_argument("files", nargs="+", help="Python file(s) to analyze")
+def handle_optimize(args):
+    """Handle the 'optimize' command."""
+    if args.output:
+        print(f"Generating optimized version and saving to {args.output}...")
+    else:
+        print("Generating optimized version...")
 
-    # optimize
-    optimize_parser = subparsers.add_parser("optimize", help="Generate optimized code")
-    optimize_parser.add_argument("files", nargs="+", help="Python file(s) to optimize")
-    optimize_parser.add_argument("-o", "--output", help="Output file path")
+def handle_check(args):
+    """Handle the 'check' command."""
+    print("Checking project...")
 
-    # check
-    check_parser = subparsers.add_parser("check", help="Check a directory")
-    check_parser.add_argument("directories", nargs="+", help="Directory(ies) to check")
+def main():
+    """This is the main function in the program."""
+    parser = setup_parser()
+    subparsers = parser.add_subparsers(dest='command')
+
+    analyze_parser = subparsers.add_parser('analyze', help='Analyze code quality')
+    analyze_parser.set_defaults(func=handle_analyze)
+
+    optimize_parser = subparsers.add_parser('optimize', help='Generate optimized version')
+    optimize_parser.add_argument('-o', '--output', type=str, help='Save to specific file')
+    optimize_parser.set_defaults(func=handle_optimize)
+
+    check_parser = subparsers.add_parser('check', help='Check project')
+    check_parser.set_defaults(func=handle_check)
 
     args = parser.parse_args()
-
-    if args.command == "analyze":
-        cmd_analyze(args)
-    elif args.command == "optimize":
-        cmd_optimize(args)
-    elif args.command == "check":
-        cmd_check(args)
+    if args.command:
+        args.func(args)
     else:
         parser.print_help()
-        sys.exit(1)
+
+if __name__ == "__main__":
+    main()
 
 
 if __name__ == "__main__":
