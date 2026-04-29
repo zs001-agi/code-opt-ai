@@ -407,3 +407,6 @@ Update the README to include installation instructions and a brief description o
 
 ---
 This new section text highlights the benefits of using AST-based analysis, emphasizing its simplicity and accessibility for beginners while also highlighting its advanced features like complex cyclomatic complexity detection and actionable suggestions.
+
+---
+Enhance the readability of the project description in the README to highlight key features and benefits more clearly.
