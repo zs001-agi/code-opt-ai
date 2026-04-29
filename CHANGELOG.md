@@ -1,3 +1,5 @@
 
 ## 2026-04-29
-**Code-Opt-AI Update:** Added new examples to demonstrate advanced features; fixed critical bugs affecting performance and stability; enhanced documentation for better user understanding and ease of use.
+- **New Features**: Added several example scripts to demonstrate common use cases.
+- **Bug Fixes**: Resolved issues with performance and compatibility across different environments.
+- **Documentation Enhancements**: Updated the README and user guide for clearer instructions and additional examples.
