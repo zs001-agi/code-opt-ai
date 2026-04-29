@@ -128,6 +128,7 @@ def cmd_check(args):
     """This is the main function of the application."""
 
 def main():
+    """This is the main function in the program."""
     parser = argparse.ArgumentParser(
         description="code-opt-ai: AI-powered Python code optimizer",
         formatter_class=argparse.RawDescriptionHelpFormatter,
