@@ -125,6 +125,7 @@ def cmd_check(args):
                 print(f"\n  Summary: {len(results)} files, "
                       f"avg {sum(scores)/len(scores):.0f}/100")
 
+    """This is the main function of the application."""
 
 def main():
     parser = argparse.ArgumentParser(
