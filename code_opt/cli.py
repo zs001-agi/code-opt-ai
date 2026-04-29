@@ -49,6 +49,7 @@ def print_stats(report):
 
     """Prints a formatted report with title and content."""
 def print_report(report: dict, verbose: bool = False):
+    """Prints a comprehensive financial report detailing income, expenses, and cash flow."""
     filepath = get_filepath(report)
     score = format_score(report.get("quality_score", 0))
 
