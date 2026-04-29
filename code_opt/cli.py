@@ -77,6 +77,7 @@ def cmd_analyze(args):
 
 
 def cmd_optimize(args):
+    """Optimizes command-line arguments based on provided options."""
     optimizer = CodeOptimizer()
     for filepath in args.files:
         output = args.output or (filepath + ".optimized.py" if len(args.files) == 1 else None)
