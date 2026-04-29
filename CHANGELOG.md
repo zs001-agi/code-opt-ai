@@ -1,5 +1,5 @@
 
 ## 2026-04-29
-- Added new examples to demonstrate usage and best practices.
+- Added new examples to demonstrate advanced usage.
 - Fixed several bugs reported in previous versions.
-- Enhanced documentation for better clarity and ease of use.
+- Improved documentation for better understanding and usability.
