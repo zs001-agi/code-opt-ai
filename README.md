@@ -341,3 +341,14 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 ---
 Consider adding a brief description of the project and its use case in the README to make it more engaging for potential users.
+
+---
+# 🚀 Enhance Your Python Code Efficiency with code-opt-ai
+
+## AI-powered Python Code Optimizer Using Static Analysis.
+
+Analyze and improve your Python code quality with AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https
