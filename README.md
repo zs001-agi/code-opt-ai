@@ -410,3 +410,12 @@ This new section text highlights the benefits of using AST-based analysis, empha
 
 ---
 Enhance the readability of the project description in the README to highlight key features and benefits more clearly.
+
+---
+# 🚀 Get your Python code optimized with AST-based static analysis! 🚀
+
+Analyze and improve your Python code quality using AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com/zs001
