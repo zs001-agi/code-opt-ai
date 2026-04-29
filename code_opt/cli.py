@@ -67,6 +67,7 @@ def print_report(report: dict, verbose: bool = False):
 
     """This function analyzes a command and outputs the result in a clear and concise manner."""
 def cmd_analyze(args):
+    """Analyzes command-line arguments and performs necessary tasks based on them."""
     optimizer = CodeOptimizer()
     for filepath in args.files:
         report = optimizer.analyze(filepath)
