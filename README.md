@@ -338,3 +338,6 @@ The output will show you a detailed report with Cyclomatic complexity, quality s
 ## 🚀 Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues.
+
+---
+Consider adding a brief description of the project and its use case in the README to make it more engaging for potential users.
