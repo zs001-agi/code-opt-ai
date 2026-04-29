@@ -97,6 +97,13 @@ def cmd_optimize(args):
                 print(f"  Output: {output}")
 
 
+    """```python
+def cmd_check(command: str) -> bool:
+    # Check if the given command exists in the system's PATH.
+    return command in os.environ['PATH']
+```
+
+**Explanation**: The `cmd_check` function takes a single"""
 def cmd_check(args):
     for directory in args.directories:
         print(f"\n{BOLD}Checking: {directory}{RESET}")
