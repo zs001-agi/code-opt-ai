@@ -478,3 +478,6 @@ Add examples of how to use the code-opt-ai library in your README to showcase it
 ## ✨ Features
 
 - **AST-based analysis** — No AI API needed, runs
+
+---
+Add instructions on setting up the project dependencies in `README.md`.
