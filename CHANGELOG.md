@@ -1,5 +1,5 @@
 
-## 2026-04-30
-- Added new examples to demonstrate advanced use cases.
-- Fixed several bugs reported in previous releases.
-- Enhanced documentation for better user experience and clarity.
+## 2026-05-01
+- Added several new example notebooks to showcase advanced usage of the AI framework.
+- Fixed bugs related to model initialization and inference speed.
+- Enhanced documentation with more detailed explanations and updated code snippets.
