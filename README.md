@@ -449,3 +449,6 @@ AI-powered Python code optimizer using static analysis to improve your code's qu
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)]
+
+---
+Add examples of how to use the code-opt-ai library in your README to showcase its capabilities.
