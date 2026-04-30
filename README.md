@@ -481,3 +481,8 @@ Add examples of how to use the code-opt-ai library in your README to showcase it
 
 ---
 Add instructions on setting up the project dependencies in `README.md`.
+
+---
+# 🚀 Analyze and Improve Your Python Code Quality with AST-Based Static Analysis
+
+Analyze and improve your Python code quality using AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
