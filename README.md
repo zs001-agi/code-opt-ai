@@ -435,3 +435,6 @@ Analyze and improve your Python code quality with AST-based static analysis. Get
 
 ---
 **Suggest:** Add examples of how to integrate the AI model into a real-world application using Python.
+
+---
+Add examples and tutorials to explain how to use the code optimization AI for different scenarios.
