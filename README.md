@@ -438,3 +438,14 @@ Analyze and improve your Python code quality with AST-based static analysis. Get
 
 ---
 Add examples and tutorials to explain how to use the code optimization AI for different scenarios.
+
+---
+# 💪 Improvements for Attracting More Stars
+
+## 🚀 The Power of AI-Powered Python Code Optimization
+
+AI-powered Python code optimizer using static analysis to improve your code's quality and efficiency. Get actionable insights on complexity, documentation, type hints, and more.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)]
