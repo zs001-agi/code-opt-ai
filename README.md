@@ -452,3 +452,13 @@ AI-powered Python code optimizer using static analysis to improve your code's qu
 
 ---
 Add examples of how to use the code-opt-ai library in your README to showcase its capabilities.
+
+---
+# 🚀 Code Optimization Assistant 🚀
+
+## ✨ Features
+
+- **AST-based analysis** — No AI API required, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Provide detailed guidance on how to improve your code quality.
