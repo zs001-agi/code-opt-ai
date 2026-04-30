@@ -1,5 +1,3 @@
 
 ## 2026-04-30
-- Added new examples to demonstrate advanced usage.
-- Fixed several bugs related to performance and stability.
-- Improved documentation for better clarity and user experience.
+code-opt-ai update includes new examples to demonstrate usage scenarios, several critical bug fixes to enhance stability, and updated documentation for better user experience and clarity.
