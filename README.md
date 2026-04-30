@@ -462,3 +462,6 @@ Add examples of how to use the code-opt-ai library in your README to showcase it
 - **Cyclomatic complexity** — Detect overly complex functions
 - **Quality scoring** — Multi-dimensional score (0-100)
 - **Actionable suggestions** — Provide detailed guidance on how to improve your code quality.
+
+---
+**Add a brief project description and installation instructions in the README**
