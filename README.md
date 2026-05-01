@@ -538,3 +538,6 @@ Add a brief overview of the project and its purpose in the README.
 [![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com/zs001-agi/code-opt-ai)
 
 ## ✨ Features
+
+---
+Enhance the README by highlighting key features or instructions for users to get started quickly.
