@@ -513,3 +513,7 @@ Add a brief description of the project and its purpose to provide context for po
 - **Cyclomatic complexity** — Detect overly complex functions
 - **Quality scoring** — Multi-dimensional score (0-100)
 - **Actionable suggestions** — Provide detailed improvements for each issue found.
+
+---
+markdown
+Add a brief description of the project at the top of the README to give potential contributors an idea of what it does without needing to read through the entire file.
