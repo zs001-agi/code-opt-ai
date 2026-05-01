@@ -3,24 +3,29 @@ import ast
 from typing import List
 
 def optimize_python_code(code: str) -> str:
-    class ASTOptimizer(ast.NodeTransformer):
-        def visit_FunctionDef(self, node):
-            # Perform optimizations here
-            return self.generic_visit(node)
+    class CodeOptimizer(ast.NodeTransformer):
+        def visit_Call(self, node):
+            if hasattr(node.func, 'name') and node.func.name in ["sum", "max", "min"]:
+                # Perform optimization for built-in functions
+                pass
+            else:
+                # Recursively optimize sub-expressions
+                return super().visit_Call(node)
 
     tree = ast.parse(code)
-    optimizer = ASTOptimizer()
+    optimizer = CodeOptimizer()
     optimized_tree = optimizer.visit(tree)
-    
-    # Convert the optimized AST back to a string
     optimized_code = ast.unparse(optimized_tree)
     return optimized_code
 
 # Example usage
-input_code = """
-def add(a, b):
-    return a + b
+original_code = """
+def sum_numbers(numbers):
+    result = 0
+    for num in numbers:
+        result += num
+    return result
 """
-
-optimized_code = optimize_python_code(input_code)
-print(optimized_code)
+optimized_code = optimize_python_code(original_code)
+print("Original Code:\n", original_code)
+print("\nOptimized Code:\n", optimized_code)
