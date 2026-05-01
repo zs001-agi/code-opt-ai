@@ -517,3 +517,10 @@ Add a brief description of the project and its purpose to provide context for po
 ---
 markdown
 Add a brief description of the project at the top of the README to give potential contributors an idea of what it does without needing to read through the entire file.
+
+---
+# 🔥 Improvements for GitHub README to Attract More Stars
+
+> 🚀 AI-powered Python code optimizer using static analysis.
+
+Analyze and improve your Python code quality with AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
