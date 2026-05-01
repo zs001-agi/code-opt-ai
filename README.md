@@ -552,3 +552,6 @@ Enhance the README by highlighting key features or instructions for users to get
 [![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com/zs001-agi/code-opt-ai)
 
 ## 🚀
+
+---
+- Add detailed installation instructions for running the project on different platforms.
