@@ -524,3 +524,6 @@ Add a brief description of the project at the top of the README to give potentia
 > 🚀 AI-powered Python code optimizer using static analysis.
 
 Analyze and improve your Python code quality with AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
+
+---
+Add a brief overview of the project and its purpose in the README.
