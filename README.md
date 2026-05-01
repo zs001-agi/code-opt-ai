@@ -503,3 +503,13 @@ Analyze and improve your Python code quality with AST-based static analysis. Get
 
 ---
 Add a brief description of the project and its purpose to provide context for potential users.
+
+---
+# 🚀 Improvements for GitHub README
+
+## ✨ Features
+
+- **AST-based analysis** — No AI API needed, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Provide detailed improvements for each issue found.
