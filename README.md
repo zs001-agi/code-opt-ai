@@ -565,3 +565,8 @@ Get actionable insights on complexity, documentation, type hints, and more. Impr
 
 ---
 "Add detailed instructions on how to run the code."
+
+---
+## 📖 Documentation
+
+Learn more about the AI-powered Python code optimizer `code-opt-ai`. Check out the [official documentation](https://zs001-agi.github.io/code-opt-ai/) for detailed usage instructions and advanced features.
