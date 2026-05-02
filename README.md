@@ -583,3 +583,19 @@ Welcome to the Code Opt AI project! This repository contains various tools and t
 - **Code Refactoring**: Automate refactoring tasks with tools like `refactoringtools` to maintain code integrity.
 
 Check out the [README](README.md) file for more details.
+
+---
+# 🌟 Improvements for GitHub README
+
+## ✨ Features
+
+- **AST-based analysis** — No AI API needed, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Provide specific recommendations on how to improve your code quality.
+
+## 🚀 How it works
+
+(code-opt-ai) uses AST-based static analysis to detect and improve the complexity of your Python code. It scores the quality of your code based on various metrics, such as cyclomatic complexity, docstrings, type hints, and more. Based on the score, it provides actionable suggestions on how to improve your code.
+
+##
