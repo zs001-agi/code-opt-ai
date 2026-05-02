@@ -574,3 +574,12 @@ Learn more about the AI-powered Python code optimizer `code-opt-ai`. Check out t
 
 ---
 Add a brief overview of the project purpose and how it addresses the problem statement.
+# Project: Code Opt AI
+
+Welcome to the Code Opt AI project! This repository contains various tools and techniques for optimizing code quality, including:
+
+- **Code Formatting**: Standardize your code style using tools like `black` or `autopep8`.
+- **Code Reviewing**: Implement automated tools like `flake8` to check for errors and improve code readability.
+- **Code Refactoring**: Automate refactoring tasks with tools like `refactoringtools` to maintain code integrity.
+
+Check out the [README](README.md) file for more details.
