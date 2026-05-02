@@ -599,3 +599,7 @@ Check out the [README](README.md) file for more details.
 (code-opt-ai) uses AST-based static analysis to detect and improve the complexity of your Python code. It scores the quality of your code based on various metrics, such as cyclomatic complexity, docstrings, type hints, and more. Based on the score, it provides actionable suggestions on how to improve your code.
 
 ##
+
+---
+markdown
+Add a brief description of the project and its purpose.
