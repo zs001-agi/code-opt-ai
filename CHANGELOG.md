@@ -1,5 +1,7 @@
 
 ## 2026-05-02
-- Added new examples to demonstrate advanced use cases.
-- Fixed several bugs reported in previous versions.
-- Updated documentation for better clarity and completeness.
+**Version 2.1.0 - 2023-09-15**
+
+- Added several new example use cases to demonstrate advanced functionalities.
+- Fixed multiple bugs affecting the stability and performance of existing features.
+- Updated the documentation with more detailed explanations and improved formatting for better readability.
