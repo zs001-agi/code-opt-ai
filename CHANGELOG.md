@@ -1,5 +1,5 @@
 
 ## 2026-05-02
-- Added new examples to demonstrate advanced usage.
-- Fixed several bugs affecting performance and stability.
-- Improved documentation for better user understanding and ease of use.
+- Added new examples to demonstrate advanced usage of the library.
+- Fixed several bugs that caused issues with performance and stability.
+- Improved documentation to enhance user experience and facilitate better integration.
