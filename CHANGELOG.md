@@ -1,5 +1,5 @@
 
 ## 2026-05-02
-- Added new examples to demonstrate enhanced functionality.
-- Fixed several bugs affecting performance and stability.
-- Updated documentation for clarity and ease of use.
+- Added new examples to demonstrate advanced use cases.
+- Fixed several bugs reported in previous versions.
+- Updated documentation for better clarity and completeness.
