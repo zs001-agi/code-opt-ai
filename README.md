@@ -571,3 +571,6 @@ Get actionable insights on complexity, documentation, type hints, and more. Impr
 
 Learn more about the AI-powered Python code optimizer `code-opt-ai`. Check out the [official documentation](https://zs001-agi.github.io/code-opt-ai/) for detailed usage instructions and advanced features.
 # Upgrade to Python 3.x
+
+---
+Add a brief overview of the project purpose and how it addresses the problem statement.
