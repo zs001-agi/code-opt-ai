@@ -610,3 +610,6 @@ Add a brief description of the project and its purpose.
 - **Community Engagement**: Consider adding a section about the community and user stories to encourage more contributions.
 - **Documentation**: Improve the documentation with examples, tutorials, and usage guides.
 - **GitHub Actions**: Implement CI/CD pipelines using GitHub Actions for automatic testing and deployment.
+
+---
+**Add detailed instructions on how to install and run the codebase.**
