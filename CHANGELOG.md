@@ -1,5 +1,5 @@
 
 ## 2026-05-02
-- Added new example notebooks demonstrating advanced usage.
-- Fixed several bugs related to data handling and model inference.
-- Updated documentation for better clarity and user guidance.
+- Added new examples to demonstrate enhanced functionality.
+- Fixed several bugs affecting performance and stability.
+- Updated documentation for clarity and ease of use.
