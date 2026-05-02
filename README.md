@@ -613,3 +613,34 @@ Add a brief description of the project and its purpose.
 
 ---
 **Add detailed instructions on how to install and run the codebase.**
+
+---
+# 🌟 Contributing to `code-opt-ai`
+
+Welcome! We're excited to invite you to contribute to our open-source Python code optimizer. Your contributions are invaluable in making the tool even better.
+
+## 🔧 Getting Started
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/zs001-agi/code-opt-ai.git
+   cd code-opt-ai
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run Tests**
+   ```bash
+   pytest
+   ```
+
+4. **Create a Pull Request**
+
+5. **Follow Our Contribution Guidelines**
+
+## 📌 Documentation
+
+- **
