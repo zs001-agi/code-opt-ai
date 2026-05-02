@@ -562,3 +562,6 @@ Enhance the README by highlighting key features or instructions for users to get
 > AI-powered Python code optimizer using static analysis.
 
 Get actionable insights on complexity, documentation, type hints, and more. Improve your Python code quality with AST-based static analysis without needing an AI API.
+
+---
+"Add detailed instructions on how to run the code."
