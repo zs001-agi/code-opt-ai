@@ -644,3 +644,6 @@ Welcome! We're excited to invite you to contribute to our open-source Python cod
 ## 📌 Documentation
 
 - **
+
+---
+Add examples of how to use the code optimization AI in your readme.
