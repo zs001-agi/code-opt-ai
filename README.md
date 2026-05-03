@@ -647,3 +647,13 @@ Welcome! We're excited to invite you to contribute to our open-source Python cod
 
 ---
 Add examples of how to use the code optimization AI in your readme.
+
+---
+# 🚀 Code-Opt-AI 🚀
+
+## ✨ Features
+
+- **AST-based analysis** — No AI API needed, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Provide specific improvements and recommendations based on the analysis results.
