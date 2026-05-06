@@ -657,3 +657,6 @@ Add examples of how to use the code optimization AI in your readme.
 - **Cyclomatic complexity** — Detect overly complex functions
 - **Quality scoring** — Multi-dimensional score (0-100)
 - **Actionable suggestions** — Provide specific improvements and recommendations based on the analysis results.
+
+---
+Add a brief example of how to use the library in your README.
