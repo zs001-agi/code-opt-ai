@@ -660,3 +660,14 @@ Add examples of how to use the code optimization AI in your readme.
 
 ---
 Add a brief example of how to use the library in your README.
+
+---
+# Code Optimization AI 🚀
+
+> AI-powered Python code optimizer using static analysis.
+
+Analyze and improve your Python code quality with AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com/zs001-
