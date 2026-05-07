@@ -761,3 +761,6 @@ Add a brief description of the project and its purpose in the README to give pot
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com/zs
+
+---
+- **Documentation**: Add detailed instructions and examples in the README to make it easier for users to understand how to use the project.
