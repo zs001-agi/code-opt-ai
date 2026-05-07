@@ -706,3 +706,6 @@ Add a brief description of the project at the top of the README file.
 - **Quality scoring** — Multi-dimensional score (0-100)
 - **Actionable suggestions** — Detailed advice for improvements
 - **Code refactoring** — Automatically refactor code to improve readability and performance
+
+---
+Add a brief summary of the project in the first paragraph of the README.
