@@ -747,3 +747,6 @@ If you're interested in upgrading to the latest version, please refer to the [of
 ---
 
 This section provides a clear step-by-step guide on how to use `code-opt-ai` and get started with it.
+
+---
+Add a brief description of the project and its purpose in the README to give potential users a clear understanding of what it does and why it's useful.
