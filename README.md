@@ -750,3 +750,14 @@ This section provides a clear step-by-step guide on how to use `code-opt-ai` and
 
 ---
 Add a brief description of the project and its purpose in the README to give potential users a clear understanding of what it does and why it's useful.
+
+---
+# 🔧 Enhancements to Attract More Stars
+
+## 🚀 New Section Text
+
+> Dive deeper into the world of AI-powered Python code optimization with AST-based analysis. Unlock actionable insights on complexity, documentation, type hints, and more.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com/zs
