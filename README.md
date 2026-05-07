@@ -695,3 +695,14 @@ Include detailed descriptions of the project, including examples and usage instr
 ---
 markdown
 Add a brief description of the project at the top of the README file.
+
+---
+# 🚀 Enhance Your Code Quality with Code Opt AI
+
+## ✨ Features
+
+- **AST-based analysis** — No AI API required, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Detailed advice for improvements
+- **Code refactoring** — Automatically refactor code to improve readability and performance
