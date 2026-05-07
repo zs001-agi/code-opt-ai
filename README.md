@@ -732,3 +732,7 @@ The latest version of Code Opt AI includes several improvements that enhance its
 - **Bug Fixes**: A variety of bugs have been resolved, ensuring that Code Opt AI functions smoothly and reliably.
 
 If you're interested in upgrading to the latest version, please refer to the [official documentation](https://zs001-agi.github.io/code-opt-ai/docs/latest/).
+
+---
+- Include a brief description of the project in the `README`.
+- Highlight key features or benefits for users.
