@@ -721,3 +721,14 @@ Analyze and improve your Python code quality with AST-based static analysis. Get
 
 ---
 Consider adding installation instructions for beginners to quickly set up the project.
+
+---
+# 🚀 Upgrade to the Latest Version
+
+The latest version of Code Opt AI includes several improvements that enhance its functionality and usability. Here are some key updates:
+
+- **Improved Documentation**: The README now provides a comprehensive guide on how to use Code Opt AI, including installation instructions, basic usage examples, and advanced configuration options.
+- **Enhanced Performance**: We've optimized the code for faster execution times, especially when dealing with large codebases.
+- **Bug Fixes**: A variety of bugs have been resolved, ensuring that Code Opt AI functions smoothly and reliably.
+
+If you're interested in upgrading to the latest version, please refer to the [official documentation](https://zs001-agi.github.io/code-opt-ai/docs/latest/).
