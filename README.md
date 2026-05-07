@@ -736,3 +736,14 @@ If you're interested in upgrading to the latest version, please refer to the [of
 ---
 - Include a brief description of the project in the `README`.
 - Highlight key features or benefits for users.
+
+---
+# 🚀 Improvements for GitHub README
+
+## ✨ New Section: How to Use and Get Started
+
+> Dive into the world of AI-powered Python code optimization with `code-opt-ai`. Analyze your code, gain actionable insights, and improve its quality.
+
+---
+
+This section provides a clear step-by-step guide on how to use `code-opt-ai` and get started with it.
