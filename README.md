@@ -825,3 +825,12 @@ Add a brief description of the project and its purpose at the beginning of the R
 
 ---
 Add a brief description of the project in the README.
+
+---
+# 🚀 Feature Highlights
+
+> Dive into the world of Python code optimization with our AI-powered tool. Our AST-based analysis helps you identify and improve your code's quality, from cyclomatic complexity to documentation and type hints.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com/zs001-
