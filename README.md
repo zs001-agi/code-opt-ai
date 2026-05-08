@@ -791,3 +791,6 @@ Add more details about the project's purpose and functionality.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai
+
+---
+Add instructions on how to run the AI optimization algorithm in the README.
