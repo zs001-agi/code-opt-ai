@@ -794,3 +794,14 @@ Add more details about the project's purpose and functionality.
 
 ---
 Add instructions on how to run the AI optimization algorithm in the README.
+
+---
+# 🚀 Enhance Code Quality with AST-Based Analysis
+
+> Improve your Python code quality with AI-powered static analysis.
+
+Analyze and optimize your Python code using AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com
