@@ -805,3 +805,9 @@ Analyze and optimize your Python code using AST-based static analysis. Get actio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com
+
+---
+markdown
+# Code Opt AI
+
+A tool for optimizing code quality and improving performance.
