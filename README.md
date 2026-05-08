@@ -775,3 +775,6 @@ Add a brief description of the project and its purpose in the README to give pot
 [![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com/zs001-agi/code-opt-ai)
 
 ## ✨ Features
+
+---
+Add more details about the project's purpose and functionality.
