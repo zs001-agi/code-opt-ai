@@ -778,3 +778,16 @@ Add a brief description of the project and its purpose in the README to give pot
 
 ---
 Add more details about the project's purpose and functionality.
+
+---
+# ✨ Improvements for Attracting More Stars
+
+## 🚀 Features
+
+- **AI-powered Python code optimizer using static analysis.**
+  - Analyze and improve your Python code quality with AST-based static analysis.
+  - Get actionable insights on complexity, documentation, type hints, and more.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai
