@@ -811,3 +811,6 @@ markdown
 # Code Opt AI
 
 A tool for optimizing code quality and improving performance.
+
+---
+Add a brief description of the project and its purpose at the beginning of the README file.
