@@ -822,3 +822,6 @@ Add a brief description of the project and its purpose at the beginning of the R
 - **Cyclomatic complexity** — Detect overly complex functions
 - **Quality scoring** — Multi-dimensional score (0-100)
 - **Actionable suggestions** — Provide detailed guidance on how to improve each issue found.
+
+---
+Add a brief description of the project in the README.
