@@ -814,3 +814,11 @@ A tool for optimizing code quality and improving performance.
 
 ---
 Add a brief description of the project and its purpose at the beginning of the README file.
+
+---
+# ✨ Features
+
+- **AST-based analysis** — No AI API needed, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Provide detailed guidance on how to improve each issue found.
