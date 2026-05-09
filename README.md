@@ -896,3 +896,6 @@ For more detailed information, check out our [official documentation](https://zs
 ## 💥 Community Support
 
 Join our community to ask questions, share tips, and get
+
+---
+Make the project name more descriptive in the README.
