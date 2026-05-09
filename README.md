@@ -844,3 +844,6 @@ An AI tool for optimizing code quality and performance.
 > AI-powered Python code optimizer using static analysis.
 
 Analyze and improve your Python code quality with AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
+
+---
+Improve the documentation on how to install dependencies.
