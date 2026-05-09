@@ -837,3 +837,10 @@ Add a brief description of the project in the README.
 ### Project Description
 
 An AI tool for optimizing code quality and performance.
+
+---
+# 🚀 Code Optimization AI
+
+> AI-powered Python code optimizer using static analysis.
+
+Analyze and improve your Python code quality with AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
