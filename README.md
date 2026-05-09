@@ -855,3 +855,6 @@ Improve the documentation on how to install dependencies.
 - **Cyclomatic complexity** — Detect overly complex functions
 - **Quality scoring** — Multi-dimensional score (0-100)
 - **Actionable suggestions** — Provide specific improvements for each code issue.
+
+---
+"Check out our AI-powered tool for optimizing code quality."
