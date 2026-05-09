@@ -865,3 +865,6 @@ Improve the documentation on how to install dependencies.
 > AI-powered Python code optimizer using static analysis.
 
 Analyze and improve your Python code quality with AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
+
+---
+Add a brief description of the project and its goals in the README.
