@@ -847,3 +847,11 @@ Analyze and improve your Python code quality with AST-based static analysis. Get
 
 ---
 Improve the documentation on how to install dependencies.
+
+---
+# ✨ Features
+
+- **AST-based analysis** — No AI API required, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Provide specific improvements for each code issue.
