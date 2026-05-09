@@ -868,3 +868,31 @@ Analyze and improve your Python code quality with AST-based static analysis. Get
 
 ---
 Add a brief description of the project and its goals in the README.
+
+---
+# 💡 Quick Start Guide
+
+To get started with `code-opt-ai`, follow these simple steps:
+
+1. Install the package:
+   ```bash
+   pip install code-opt-ai
+   ```
+
+2. Run the optimizer on your Python code:
+   ```python
+   from code_opt.ai import optimize_code
+
+   optimized_code = optimize_code("your_python_code.py")
+   print(optimized_code)
+   ```
+
+3. Analyze the results and make improvements as needed.
+
+## 📖 Documentation
+
+For more detailed information, check out our [official documentation](https://zs001-agi.github.io/code-opt-ai).
+
+## 💥 Community Support
+
+Join our community to ask questions, share tips, and get
