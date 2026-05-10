@@ -912,3 +912,6 @@ Optimize your Python code using static analysis. Get actionable insights and sug
 ## ✨ Features
 
 - **AST
+
+---
+Add a brief description of the project and its purpose to the README.
