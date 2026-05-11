@@ -985,3 +985,25 @@ Add example usage section to showcase how the tool can be applied in real-world 
 - **Integration with IDEs** — Integrate with popular IDEs for immediate feedback and refactoring
 
 Feel free to customize this section based on the specific features you want to highlight!
+
+---
+markdown
+# Code Optimization AI
+
+## Introduction
+This project aims to provide tools for optimizing code by utilizing machine learning algorithms. It leverages various techniques such as feature extraction, model training, and evaluation to enhance the readability and efficiency of source code.
+
+## Key Features
+- Automated code analysis and optimization
+- Customizable feature extraction pipelines
+- Model training on large datasets
+- Evaluation metrics for code quality improvements
+
+## Installation
+To get started with this project:
+1. Clone the repository: `git clone https://github.com/yourusername/code-opt-ai.git`
+2. Install dependencies: `pip install -r requirements.txt`
+
+## Usage
+- Run the code analysis tool: `python analyze_code.py`
+- Train the model using
