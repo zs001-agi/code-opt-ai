@@ -2,26 +2,24 @@
 import ast
 from genetic_algorithm import GeneticAlgorithm
 
-class CodeOptimizer:
-    def __init__(self, code):
-        self.code = code
-        self.ast_tree = ast.parse(code)
-        self.population_size = 100
-        self.mutation_rate = 0.5
-        self.crossover_rate = 0.7
-        self.generation_limit = 100
+class Optimizer:
+    def __init__(self):
+        self.genetic_algorithm = GeneticAlgorithm()
 
-    def optimize(self):
-        ga = GeneticAlgorithm(self.code, self.ast_tree, self.population_size, self.mutation_rate, self.crossover_rate, self.generation_limit)
-        optimized_code = ga.run()
-        return optimized_code
+    def optimize(self, python_code):
+        tree = ast.parse(python_code)
+        optimized_tree = self.genetic_algorithm.optimize(tree)
+        optimized_python_code = ast.unparse(optimized_tree)
+        return optimized_python_code
 
-# Example usage
 if __name__ == "__main__":
-    code = """
+    optimizer = Optimizer()
+    python_code = """
 def add(a, b):
     return a + b
 """
-    optimizer = CodeOptimizer(code)
-    optimized_code = optimizer.optimize()
+    optimized_code = optimizer.optimize(python_code)
+    print("Original Python Code:")
+    print(python_code)
+    print("\nOptimized Python Code:")
     print(optimized_code)
