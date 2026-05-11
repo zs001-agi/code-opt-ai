@@ -1,5 +1,5 @@
 
 ## 2026-05-11
-- Added new examples demonstrating advanced usage of `code-opt-ai`.
-- Fixed several bugs related to performance and stability.
-- Enhanced documentation with more detailed explanations and updated examples.
+- Added new examples to demonstrate advanced usage.
+- Fixed several bugs reported in previous versions.
+- Enhanced documentation for better user understanding and ease of use.
