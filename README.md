@@ -956,3 +956,6 @@ Add a brief description of what the project does and why it is important to othe
 
 - **Fast Analysis**: Optimize the analysis process for faster execution times and better performance on large projects.
 - **Load Bal
+
+---
+Consider including a brief description of the project's purpose and goals in the README.
