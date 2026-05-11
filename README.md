@@ -1028,3 +1028,6 @@ Add a brief description of the project and its purpose in the README to help pot
 **What's New**: Our latest update brings real-time code analysis to your projects. Now, you can get insights into the performance and maintainability of your Python code as it evolves over time. Our AI-powered tool analyzes the code on-the-fly, providing actionable suggestions for refactoring, optimizing, and improving the overall quality of your Python applications.
 
 Check out our [GitHub repository](https://github.com/zs001-agi/code-opt-ai) to learn more and start analyzing your Python code today!
+
+---
+**Refactor the usage section**: Provide detailed steps on how to use `code-opt-ai` effectively.
