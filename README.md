@@ -1007,3 +1007,14 @@ To get started with this project:
 ## Usage
 - Run the code analysis tool: `python analyze_code.py`
 - Train the model using
+
+---
+# 🚀 Code Optimization with AI
+
+> A powerful Python code optimizer using static analysis.
+
+With AST-based static analysis, you can analyze your Python code to detect issues like high cyclomatic complexity and lack of documentation. Get actionable insights on the quality of your code, including multi-dimensional scores and specific suggestions for improvement.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt
