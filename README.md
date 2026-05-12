@@ -1072,3 +1072,6 @@ We welcome contributions from the community! Here are some ways you can help:
 ## 📖 Acknowledgments
 
 We would like to thank [@zs001-agi] for creating this project and its contributors. If you have any questions or need help, feel free to ask!
+
+---
+Add more detailed installation and usage instructions in the README.
