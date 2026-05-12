@@ -1059,3 +1059,16 @@ Analyze, improve, and optimize your Python code quality with AST-based static an
 
 ---
 Make the README more concise and clear by highlighting the main features and benefits of the project.
+
+---
+# 👥 How to Contribute
+
+We welcome contributions from the community! Here are some ways you can help:
+
+- **Report Issues**: If you encounter a bug or have an idea for improvement, feel free to open an issue.
+- **Pull Requests**: Submit your changes as pull requests. Make sure your code is well-documented and follows our coding style.
+- **Documentation**: Improve the README and other documentation. We welcome any contributions in this area.
+
+## 📖 Acknowledgments
+
+We would like to thank [@zs001-agi] for creating this project and its contributors. If you have any questions or need help, feel free to ask!
