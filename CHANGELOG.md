@@ -1,3 +1,5 @@
 
 ## 2026-05-12
-**code-opt-ai Update:** Added new examples, fixed bugs, and enhanced documentation to improve usability and functionality.
+- Added new examples to demonstrate advanced usage.
+- Fixed several bugs identified in previous releases.
+- Enhanced documentation for better understanding and ease of use.
