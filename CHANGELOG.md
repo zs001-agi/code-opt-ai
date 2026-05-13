@@ -1,3 +1,5 @@
 
 ## 2026-05-13
-New examples and bug fixes have been included in the latest release of `code-opt-ai`. Documentation has also been significantly improved to enhance user experience.
+- Added new examples to demonstrate advanced usage of the library.
+- Fixed several bugs identified in previous releases.
+- Updated documentation to enhance clarity and provide more detailed explanations.
