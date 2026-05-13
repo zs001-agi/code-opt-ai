@@ -1159,3 +1159,8 @@ Analyze and improve your Python code quality with AST-based static analysis. Get
 
 ---
 Enhance the README with a brief description of the problem and the solution provided by the project.
+
+---
+# 🚀 Analyze and improve your Python code with AST-based static analysis.
+
+Analyze and improve your Python code quality using AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
