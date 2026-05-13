@@ -1167,3 +1167,10 @@ Analyze and improve your Python code quality using AST-based static analysis. Ge
 
 ---
 **Improvement Suggestion:** Consider adding a brief description of the problem or task your project aims to solve in the README to make it more accessible and engaging for potential users.
+
+---
+# 🚀 Code Optimization Assistant with AST-Based Analysis
+
+> AI-powered Python code optimizer using static analysis.
+
+Analyze and improve your Python code quality with AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
