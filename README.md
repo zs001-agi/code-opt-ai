@@ -1188,3 +1188,6 @@ Discover advanced techniques to optimize your Python code for better performance
 [![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com/zs001-agi/code-opt-ai)
 
 ## 🔧 Key Tips
+
+---
+Use a clear and compelling title for the repository.
