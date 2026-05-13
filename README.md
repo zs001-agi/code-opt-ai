@@ -1164,3 +1164,6 @@ Enhance the README with a brief description of the problem and the solution prov
 # 🚀 Analyze and improve your Python code with AST-based static analysis.
 
 Analyze and improve your Python code quality using AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
+
+---
+**Improvement Suggestion:** Consider adding a brief description of the problem or task your project aims to solve in the README to make it more accessible and engaging for potential users.
