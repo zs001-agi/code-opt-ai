@@ -1,5 +1,5 @@
 
 ## 2026-05-13
-- Added new examples to demonstrate advanced usage of the library.
-- Fixed several bugs identified in previous releases.
-- Updated documentation to enhance clarity and provide more detailed explanations.
+- **New Features:** Added several example use cases to demonstrate the functionality of `code-opt-ai`.
+- **Bug Fixes:** Resolved issues with performance and compatibility across different platforms.
+- **Documentation:** Enhanced and updated documentation for better usability and clarity.
