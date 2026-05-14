@@ -1,3 +1,5 @@
 
 ## 2026-05-14
-New examples added to demonstrate usage of advanced features. Bug fixes in data handling and model inference. Enhanced documentation for better user experience.
+- Added new example scripts to demonstrate advanced usage.
+- Fixed several bugs identified in the model inference process.
+- Enhanced documentation with more detailed explanations and tutorials.
