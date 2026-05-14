@@ -1261,3 +1261,6 @@ Analyze and improve your Python code quality using static analysis.
 ## ✨ Features
 
 - **AST-based analysis** — No AI API needed
+
+---
+Add a brief description of the AI model used in the project and its purpose.
