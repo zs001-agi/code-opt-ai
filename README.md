@@ -1271,3 +1271,6 @@ Add a brief description of the AI model used in the project and its purpose.
 > AI-powered Python code optimizer using static analysis.
 
 Analyze and improve your Python code quality with AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
+
+---
+Add an installation guide or instructions for users to get started quickly.
