@@ -1,5 +1,3 @@
 
-## 2026-05-14
-* Added new examples to demonstrate advanced usage.
-* Fixed several bugs identified in previous releases.
-* Enhanced documentation for better clarity and user guidance.
+## 2026-05-15
+code-opt-ai v1.2.0 - Updated with new examples, fixed bugs, and enhanced documentation for better user experience.
