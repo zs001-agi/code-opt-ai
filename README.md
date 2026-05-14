@@ -1245,3 +1245,6 @@ Analyze and improve your Python code quality with AST-based static analysis.
 - **Cyclomatic complexity** — Detect overly complex functions
 - **Quality scoring** — Multi-dimensional score (0-100)
 - **Actionable suggestions** — Suggests refactoring and improvements.
+
+---
+**Add a detailed project description at the top of the README.**
