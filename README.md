@@ -1274,3 +1274,11 @@ Analyze and improve your Python code quality with AST-based static analysis. Get
 
 ---
 Add an installation guide or instructions for users to get started quickly.
+
+---
+# ✨ Features
+
+- **AI-powered static analysis** — No AI API needed, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Provide detailed recommendations for improving code quality.
