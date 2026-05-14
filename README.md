@@ -1202,3 +1202,6 @@ Use a clear and compelling title for the repository.
 [![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com/zs001-agi/code-opt-ai)
 
 ## ✨
+
+---
+**Add installation instructions and a brief description of the project in the README file.**
