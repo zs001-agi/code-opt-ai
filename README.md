@@ -1282,3 +1282,6 @@ Add an installation guide or instructions for users to get started quickly.
 - **Cyclomatic complexity** — Detect overly complex functions
 - **Quality scoring** — Multi-dimensional score (0-100)
 - **Actionable suggestions** — Provide detailed recommendations for improving code quality.
+
+---
+Add detailed installation and usage instructions to the README.
