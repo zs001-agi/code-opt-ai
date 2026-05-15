@@ -1,3 +1,5 @@
 
 ## 2026-05-16
-code-opt-ai: Added new examples, fixed bugs, and enhanced documentation for better user experience and functionality.
+- Added new examples to demonstrate advanced use cases.
+- Fixed several bugs identified in the previous release.
+- Enhanced documentation for better user understanding and ease of use.
