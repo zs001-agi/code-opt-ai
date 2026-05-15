@@ -2,25 +2,33 @@
 import ast
 from typing import List
 
-class Optimizer:
-    def __init__(self, code: str):
-        self.code = code
-        self.tree = ast.parse(code)
+def optimize_ast(node):
+    # Recursively traverse the AST tree
+    if isinstance(node, ast.Call):
+        # Replace function calls with optimized versions
+        new_node = replace_function_call(node)
+        node = new_node
+    for child in ast.iter_child_nodes(node):
+        node = optimize_ast(child)
+    return node
 
-    def optimize(self) -> str:
-        # Convert the AST to a string for easier manipulation
-        tree_str = ast.unparse(self.tree)
-        
-        # Perform some basic optimizations (example: remove unnecessary whitespace)
-        optimized_code = '\n'.join([line.strip() for line in tree_str.split('\n') if line.strip()])
-        
-        return optimized_code
+def replace_function_call(node: ast.Call) -> ast.Call:
+    if node.func.id == 'numpy':
+        # Optimize numpy function calls
+        if node.args[0].id == 'sin':
+            new_node = ast.Call(ast.Name(id='math', ctx=ast.Load()), [node.args[1]], [])
+            return new_node
+    return node
 
-# Example usage
-code = """
-def add(x, y):
-    return x + y
-"""
-optimizer = Optimizer(code)
-optimized_code = optimizer.optimize()
-print(optimized_code)
+def main():
+    # Example AST tree
+    ast_tree = ast.parse('numpy.sin(x)')
+    
+    # Optimize the AST tree
+    optimized_ast_tree = optimize_ast(ast_tree)
+    
+    # Print the optimized AST tree
+    print(ast.dump(optimized_ast_tree, indent=4))
+
+if __name__ == '__main__':
+    main()
