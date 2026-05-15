@@ -1,5 +1,5 @@
 
 ## 2026-05-15
-- Added new examples to demonstrate advanced usage and best practices.
-- Fixed several bugs related to performance issues and data handling.
-- Improved documentation for clarity and usability, including updated API references and user guides.
+- **New Features:** Added multiple examples to illustrate advanced use cases.
+- **Bug Fixes:** Addressed several issues reported in previous versions.
+- **Documentation:** Enhanced clarity and completeness of the user manual and API reference.
