@@ -1348,3 +1348,6 @@ Analyze and improve your Python code quality using AST-based static analysis. Ge
 ## 📖 Documentation
 
 For detailed instructions and usage examples, visit our [official documentation](https://docs.code-opt-ai.com).
+
+---
+Add a brief description of the project in the README, such as "A simple text-based AI to optimize code."
