@@ -1334,3 +1334,17 @@ Analyze and improve your Python code quality using AST-based static analysis. Ge
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com/zs001-agi/code
 # Add a brief description and installation instructions in the README.
+
+---
+# **🚀 Code Optimization with AST-Based Static Analysis**
+
+## 🚀 Features
+
+- **AST-based analysis** — No AI API needed, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Detailed improvements to help you improve your Python code quality.
+
+## 📖 Documentation
+
+For detailed instructions and usage examples, visit our [official documentation](https://docs.code-opt-ai.com).
