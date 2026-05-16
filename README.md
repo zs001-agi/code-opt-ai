@@ -1398,3 +1398,14 @@ Add a brief description of the project in the README.
 
 ---
 Add a simple "Get started" section or a brief description of the project's main features to help potential users understand its purpose and how it can be used.
+
+---
+# 🚀 Code Optimize AI 🔥
+
+### Improve Your Python Code with AI-Powered Static Analysis
+
+Analyze and enhance your Python code quality using AST-based static analysis. Get actionable insights on complexity, documentation, type hints, and more.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub stars](https://img.shields.io/github/stars/zs001-agi/code-opt-ai?style=social)](https://github.com/z
