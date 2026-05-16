@@ -1,3 +1,3 @@
 
 ## 2026-05-16
-Updated `code-opt-ai` with new examples, fixed bugs, and enhanced documentation.
+New features include updated examples and enhanced documentation. We've also addressed several bugs to improve stability.
