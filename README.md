@@ -1387,3 +1387,11 @@ Add a brief description of the project and include screenshots or videos showcas
 
 ---
 Add a brief description of the project in the README.
+
+---
+# 🚀 Features
+
+- **AST-based analysis** — No AI API needed, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Provide actionable tips for improving your code quality.
