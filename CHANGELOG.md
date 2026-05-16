@@ -1,3 +1,5 @@
 
 ## 2026-05-16
-Version 1.2.0 - Added new examples, fixed bugs, and enhanced documentation for better user experience.
+- Added new examples to demonstrate advanced features.
+- Fixed several bugs affecting performance and stability.
+- Enhanced documentation for better user experience and clarity.
