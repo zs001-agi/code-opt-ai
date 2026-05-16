@@ -1359,3 +1359,4 @@ Add a brief description of the project in the README, such as "A simple text-bas
 - **Real-time feedback** — Analyze your code as you write it
 - **Data-driven improvements** — AI learns from previous analysis to improve future results
 - **Intuitive user interface** — Easy-to-use, no coding skills needed
+# Improve README: Add quick start guide
