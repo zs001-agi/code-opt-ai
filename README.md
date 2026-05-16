@@ -1384,3 +1384,6 @@ Add a brief description of the project and include screenshots or videos showcas
 - **Cyclomatic complexity** — Detect overly complex functions
 - **Quality scoring** — Multi-dimensional score (0-100)
 - **Actionable suggestions** — Provide specific improvements based on the code's quality.
+
+---
+Add a brief description of the project in the README.
