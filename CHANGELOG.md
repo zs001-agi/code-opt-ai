@@ -1,3 +1,5 @@
 
 ## 2026-05-16
-New features include updated examples and enhanced documentation. We've also addressed several bugs to improve stability.
+- Added several new example notebooks showcasing advanced use cases.
+- Fixed bugs related to data handling and model accuracy.
+- Enhanced documentation with more detailed explanations and updated tutorials.
