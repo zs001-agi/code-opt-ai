@@ -1,3 +1,5 @@
 
 ## 2026-05-17
-Updated `code-opt-ai` with new examples and bug fixes, enhancing functionality and clarity through improved documentation.
+- Added new example notebooks showcasing advanced use cases.
+- Fixed several bugs related to data handling and model performance.
+- Enhanced documentation with clearer explanations and updated tutorials.
