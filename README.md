@@ -1473,3 +1473,11 @@ pip install code-opt-ai
 from code_opt_ai import optimize_code
 
 # Example
+
+---
+# 🚀 Features
+
+- **AST-based analysis** — No AI API needed, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Provide specific code improvements based on the analysis.
