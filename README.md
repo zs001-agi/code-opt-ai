@@ -1510,3 +1510,6 @@ Add a brief introduction to the project and its purpose in the README.
 - **Cyclomatic complexity** — Detect overly complex functions
 - **Quality scoring** — Multi-dimensional score (0-100)
 - **Actionable suggestions** — Generate Python code improvements and refactorings.
+
+---
+Add a screenshot of the AI tool in action to showcase how it helps developers optimize their code faster.
