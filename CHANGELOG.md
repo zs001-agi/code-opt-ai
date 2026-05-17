@@ -1,5 +1,3 @@
 
 ## 2026-05-17
-- Added new example scripts to demonstrate advanced usage.
-- Fixed several bugs identified in the existing codebase.
-- Enhanced documentation for better readability and clarity.
+Updated `code-opt-ai` with new examples and bug fixes, enhancing functionality and clarity through improved documentation.
