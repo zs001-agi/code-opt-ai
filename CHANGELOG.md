@@ -1,5 +1,5 @@
 
 ## 2026-05-18
-- Added new examples to demonstrate advanced usage.
-- Fixed several bugs in the core algorithm.
-- Improved documentation for better clarity and usability.
+- Added new examples to demonstrate various use cases.
+- Fixed several bugs identified in the previous release.
+- Improved documentation for better user experience and understanding.
