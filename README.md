@@ -1498,3 +1498,15 @@ Analyze and improve your Python code quality with AST-based static analysis. Get
 
 ---
 Add a brief introduction to the project and its purpose in the README.
+
+---
+# 🚀 Code Optimization with AST-Based Static Analysis
+
+> Our tool helps you optimize your Python code by analyzing and improving its quality using static analysis.
+
+## ✨ Features
+
+- **AST-based analysis** — No AI API needed, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Generate Python code improvements and refactorings.
