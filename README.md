@@ -1546,3 +1546,7 @@ Add example usage and tutorials to the README.
 - **Cyclomatic complexity** — Detect overly complex functions
 - **Quality scoring** — Multi-dimensional score (0-100)
 - **Actionable suggestions** — Provide detailed improvements for your code quality.
+
+---
+markdown
+Add a section explaining the problem and how your solution addresses it.
