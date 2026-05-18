@@ -1538,3 +1538,11 @@ Analyze and improve your Python code quality with AST-based static analysis. Get
 
 ---
 Add example usage and tutorials to the README.
+
+---
+# ✨ Features
+
+- **AI-powered analysis** — No AI API needed, runs locally
+- **Cyclomatic complexity** — Detect overly complex functions
+- **Quality scoring** — Multi-dimensional score (0-100)
+- **Actionable suggestions** — Provide detailed improvements for your code quality.
