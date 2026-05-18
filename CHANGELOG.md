@@ -1,3 +1,5 @@
 
 ## 2026-05-18
-**code-opt-ai Update:** 🚀 New examples have been added to enhance learning resources, bugs have been meticulously fixed, and the documentation has been significantly improved for a smoother user experience.
+- Added new example notebooks showcasing advanced usage.
+- Fixed several bugs related to data handling and model training.
+- Enhanced documentation with more detailed explanations and updated code snippets.
