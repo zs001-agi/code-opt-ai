@@ -1550,3 +1550,28 @@ Add example usage and tutorials to the README.
 ---
 markdown
 Add a section explaining the problem and how your solution addresses it.
+
+---
+# ✨ New Section: Documentation and Examples
+
+## 📖 User Guide
+
+Follow these steps to get started with `code-opt-ai`:
+
+1. **Install**: Clone the repository or use pip:
+   ```bash
+   git clone https://github.com/zs001-agi/code-opt-ai.git
+   cd code-opt-ai
+   pip install .
+   ```
+
+2. **Analyze Code**: Run the analysis on your Python files:
+   ```bash
+   code-opt-ai analyze my_script.py
+   ```
+
+3. **Review Results**: Check the `quality.json` file in the output directory for detailed insights.
+
+## 🍀 Examples
+
+See how `code-opt-ai` can improve
