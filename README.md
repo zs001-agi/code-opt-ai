@@ -1575,3 +1575,6 @@ Follow these steps to get started with `code-opt-ai`:
 ## 🍀 Examples
 
 See how `code-opt-ai` can improve
+
+---
+Add an example or demonstration of the AI model in action using Markdown.
